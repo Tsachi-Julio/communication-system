@@ -1,0 +1,55 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.call-me {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.call-me img {
+    width: 25px;
+}
+
+.call-me .phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    background-color: #f7ae1c;
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .header-nav {
+        margin-right: 15px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+    }
+}

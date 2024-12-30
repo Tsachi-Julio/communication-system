@@ -1,0 +1,58 @@
+
+
+.section-2-container {
+    background-color: #F7F7F7;
+    padding: 5rem;
+}
+
+.section-2 {
+    margin: auto;
+    width: 80%;
+}
+
+.section-2 ol {
+    list-style: none;
+    padding: 0;
+}
+
+.section-2 ol li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 0.1rem;
+}
+
+.section-2 ol li img {
+    width: 30px;
+}
+
+
+.section-2 h1 {
+    margin: 0;
+}
+
+
+.section-2 p {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.card-list {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px) {
+    .section-2-container {
+        background-color: #F7F7F7;
+        padding: 1rem;
+    }
+
+    .section-2 {
+        width: 100%;
+    }
+
+    .section-2 ol li { 
+        margin-bottom: 0.5rem;
+    }
+}
+

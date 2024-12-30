@@ -1,0 +1,40 @@
+.contact-us-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background-color: #F7F7F7;
+}
+
+.contact-us-info {
+    padding-right: 3rem;
+}
+
+.email-form {
+    max-width: 500px;
+}
+
+.whatapp-icon {
+    width: 25px;
+}
+
+.phone-link {
+    width: 40%;
+}
+
+@media screen and (max-width: 700px) {
+    .email-form {
+        width: 80%;
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    .contact-us-container {
+        gap: 15px;
+    }
+
+    .phone-link {
+        width: 45%;
+    }
+}
